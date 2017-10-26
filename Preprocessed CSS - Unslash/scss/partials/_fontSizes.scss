@@ -1,0 +1,36 @@
+/* TypeScale Font sizes*/
+
+html {font-size: 1em;}
+
+body {
+  font-family: $fontStack;
+  font-weight: $light;
+  line-height: 1.45;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  font-weight: $bold;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 6.854em;
+}
+
+h2 {font-size: 4.236em;}
+
+h3 {font-size: 2.618em;}
+
+h4 {font-size: 1.618em;}
+
+p {
+    font-size: 1.2em;
+    line-height: 150%;
+}
+
+small, .font_small {font-size: 0.618em;}
